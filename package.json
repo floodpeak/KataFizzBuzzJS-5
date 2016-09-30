@@ -4,7 +4,7 @@
   "description": "practice for http://codingdojo.org/cgi-bin/index.pl?KataFizzBuzz using javascript with mocha and chai",
   "main": "index.js",
   "scripts": {
-    "test": "mocha  --reporter min --watch"
+    "test": "mocha  --reporter min --watch --compilers js:babel-core/register"
   },
   "repository": {
     "type": "git",
@@ -18,8 +18,8 @@
   "homepage": "https://github.com/floodpeak/KataFizzBuzzJS-5#readme",
   "devDependencies": {
     "babel-core": "^6.16.0",
+    "babel-preset-es2015": "^6.16.0",
     "babel-register": "^6.16.3",
-    "babel-runtime": "^6.11.6",
     "chai": "^3.5.0",
     "mocha": "^3.1.0"
   }

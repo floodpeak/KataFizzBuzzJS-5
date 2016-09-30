@@ -1,7 +1,7 @@
-let expect = require('chai').expect
+import {expect} from 'chai'
 
 describe('test env',function(){
   it('should be true if true',function(){
-    expect(false).to.be.true
+    expect(true).to.be.true
   })
 })
