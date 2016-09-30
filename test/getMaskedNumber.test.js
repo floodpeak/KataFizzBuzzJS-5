@@ -17,4 +17,11 @@ describe('test env',function(){
   it('should be Fizz for 6',function(){
     expect(getMaskedNumber(6)).to.be.equal('Fizz')
   })
+  it('should be Buzz for 10',function(){
+    expect(getMaskedNumber(10)).to.be.equal('Buzz')
+  })
+  it('should be Buzz for 15',function(){
+    expect(getMaskedNumber(15)).to.be.equal('FizzBuzz')
+  })
+
 })
